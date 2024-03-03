@@ -2,6 +2,7 @@ import React from "react";
 import Header from './components/header/Header.jsx';
 import './App.css';
 import CardList from './components/cardList/CardList.jsx';
+import CardItem from './components/cardItem/CardItem.jsx';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <CardList />
-      <cardItem />
-    </div>
+      <CardItem />
+      </div>
   );
 }
 
